@@ -1,9 +1,17 @@
 import React from 'react';
 import './App.css';
 
+// JSX: Xml syntax within of JS
+
+import Routes from './routes';
+
+
+
 function App() {
   return (
-    <h1>Hello World</h1>
+    <div>
+      <Routes />
+    </div>
   );
 }
 
